@@ -4,16 +4,18 @@ body {
     font-size: 15px;
     line-height: 1.5;
     color: black;
+    background: url("../img/bg.png");
 }
 .page {
     width: 800px;
     margin: 20px auto;
+    background-color: white;
 }
 
 /*header*/
 .header {
     padding: 20px;
-    background-color: rgb(21, 29, 29);
+    background-color: black;
 
 }
 .header-title {
@@ -29,6 +31,7 @@ body {
     text-align: center;
     font-weight: normal;
 }
+
 /*navigation*/
 .nav {
     text-align: center;
@@ -41,4 +44,56 @@ body {
 }
 .nav-link:hover {
     background-color:#eee;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+.content-text{
+    margin: 20px;
+}
+.content-title {
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: black;
+}
+.read-more {
+    color: crimson;
+    text-decoration: none;
+
+}
+.read-more:hover {
+    background-color: darkgrey;
+    text-decoration: underline;
+}
+/*article*/
+.article{
+    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+.article-title{
+    margin:0 0 5px;
+    font-size: 18px;
+    color: darkslategray;
+}
+.article-title a {
+    color: inherit;
+    text-decoration: none;
+}
+.article-title:hover {
+    background-color: yellow;
+}
+.article-date{
+    color: rgb(92, 84, 84);
+    font-size: 12px;
+}
+/*footer*/
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+
 }
