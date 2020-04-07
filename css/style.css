@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+}
+.page {
+    width: 800px;
+    margin: 20px auto;
+}
+
+/*header*/
+.header {
+    padding: 20px;
+    background-color: rgb(21, 29, 29);
+
+}
+.header-title {
+    margin: 0;
+    font-size: 24px;
+    color: rgb(240, 234, 234);
+    text-align: center;
+}
+.header-subtitle {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(176, 176, 218);
+    text-align: center;
+    font-weight: normal;
+}
+/*navigation*/
+.nav {
+    text-align: center;
+}
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover {
+    background-color:#eee;
+}
