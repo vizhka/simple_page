@@ -52,6 +52,7 @@ body {
     padding: 8px 12px;
     text-decoration: none;
     color: black;
+    transition: background-color 0.2s linear ;
 }
 .nav-link:hover {
     background-color:#eee;
@@ -62,6 +63,11 @@ body {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
+    opacity: 0.8;
+    transition: opacity 0.1s linear;
+}
+.image :hover {
+    opacity: 1;
 }
 /* Content */
 .content {
