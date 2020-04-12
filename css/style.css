@@ -6,10 +6,20 @@ body {
     color: black;
     background: url("../img/bg.png");
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .page {
-    width: 800px;
+    width: 1000px;
     margin: 20px auto;
     background-color: white;
+}
+.conteiner{
+    display: flex;
+
 }
 
 /*header*/
@@ -35,9 +45,10 @@ body {
 /*navigation*/
 .nav {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .nav-link {
-    display: inline-block;
     padding: 8px 12px;
     text-decoration: none;
     color: black;
@@ -45,10 +56,17 @@ body {
 .nav-link:hover {
     background-color:#eee;
 }
-
+/*img*/
+.image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
 /* Content */
 .content {
-    padding: 20px;
+    width: 800px;
+    padding: 0 20px;
 }
 .content-text{
     margin: 20px;
@@ -66,6 +84,9 @@ body {
 .read-more:hover {
     background-color: darkgrey;
     text-decoration: underline;
+}
+h1,h2,h3,h4,h5 {
+    margin:0;
 }
 /*article*/
 .article{
@@ -88,6 +109,22 @@ body {
 .article-date{
     color: rgb(92, 84, 84);
     font-size: 12px;
+    display: block;
+}
+/*sidebar*/
+.sidebar{
+    width: 200px;
+    background-color: gray;
+    padding: 10px;
+}
+.sidebar-title{
+    font-size: 16px;
+    color: hotpink;
+    margin-bottom: 20px;
+
+}
+.sidebar-image{
+    background-color: khaki;
 }
 /*footer*/
 .footer{
