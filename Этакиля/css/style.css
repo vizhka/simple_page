@@ -80,3 +80,54 @@ header-nav{
     left:0;
     bottom:-5px;
 }
+/*Content*/
+.content {
+    width: 645px;
+    margin: 15px 20px;
+}
+.subtitle {
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.61) ;
+    font-weight: 300;
+}
+.title {
+    margin-bottom: 35px;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.2;
+    background-color: rgba(64, 58, 158, 0.808);
+}
+.title span{
+    font-size: 35px;
+}
+.text {
+    margin-bottom: 50px;
+    font-size: 15px;
+    color:white;
+    background-color:  rgba(64, 58, 158, 0.808);
+}
+/*Button*/
+.btn{
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    background-color: #2b7ded;
+    border-radius: 5px;
+    transition: background .2s linear;
+    line-height: 1.1;
+
+}
+.btn:hover{
+    background-color: teal;
+}
+/*Photo*/
+.atom {
+    position: absolute;
+    bottom: 45px;
+    right: 5px;
+
+}
