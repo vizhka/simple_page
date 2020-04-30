@@ -31,6 +31,18 @@ p{
     background: black url("../img/62299bafe09a780c08a340c2411b08cc_fitted_800x3000.jpg") center no-repeat;
     background-size: cover;
 }
+.page-author {
+    width:100%;
+    height: 100vh;
+    background: black url("../img/фон.автор.jpg") center no-repeat;
+    background-size: cover;
+}
+.page-contacts {
+    width:100%;
+    height: 100vh;
+    background: black url("../img/фон.контакт.jpg") center no-repeat;
+    background-size: cover;
+}
 /*Header*/
 .header {
     background: rgba(59, 59, 201);
