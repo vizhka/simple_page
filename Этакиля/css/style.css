@@ -20,7 +20,7 @@ p{
 }
 .container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     
 }
@@ -94,7 +94,7 @@ header-nav{
 }
 /*Content*/
 .content {
-    width: 645px;
+    max-width: 1200px;
     margin: 15px 20px;
 }
 .title {
@@ -137,4 +137,16 @@ header-nav{
     bottom: 45px;
     right: 5px;
 
+}
+@media (max-width:568px){
+    .atom {
+        width:30%;
+    }
+    .header-nav-link{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .header-brand{
+        font-size:20px;
+    }
 }
