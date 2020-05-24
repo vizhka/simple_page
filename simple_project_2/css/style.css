@@ -35,7 +35,7 @@ p{
     height: 100vh;
     position: relative;
 
-    background: black url("../img/bg.jpg") center no-repeat;
+    background: black url("../img/bckgrnd_img.PNG") center no-repeat;
     background-size: cover;
     
 }
