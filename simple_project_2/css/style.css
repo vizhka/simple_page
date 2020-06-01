@@ -24,7 +24,7 @@ p{
 }
 .container {
     width: 100%;
-    max-width: 1030px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 1rem;
     
@@ -35,14 +35,14 @@ p{
     height: 100vh;
     position: relative;
 
-    background: black url("../img/bckgrnd_img.PNG") center no-repeat;
+    background: black url("../img/bg.jpg") center no-repeat;
     background-size: cover;
     
 }
 /*Header*/
 .header {
     background: #2b7ded;
-    padding: 15px 0;
+    padding: 15px 0px; 
     margin-bottom: 110px;
 }
 
