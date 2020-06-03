@@ -38,20 +38,29 @@ p{
 /*Page*/
 .page {
     width:100%;
+    max-width: 1600px;
     height: 100vh;
     background: rgba(53, 43, 203);
-    
+    background: black url("../img/62299bafe09a780c08a340c2411b08cc_fitted_800x3000.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+.page-article{
+    max-width: 1600px;
+    width:100%;
+    height: 100vh;
+    background-color: rgb(77, 76, 76);
+}
 .page-author {
     width:100%;
+    max-width: 1600px;
     height: 100vh;
     background: black url("../img/фон.автор.jpg") center no-repeat;
     background-size: cover;
 }
 .page-contacts {
     width:100%;
+    max-width: 1600px;
     height: 100vh;
     background: rgba(0, 0, 0, 0.801) url("../img/фон.контакт.jpg") center no-repeat;
     
@@ -110,7 +119,7 @@ header-nav{
 }
 /*Content*/
 .content {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 15px 20px;
 }
 .title {
@@ -125,9 +134,10 @@ header-nav{
     font-size: 35px;
 }
 .text {
-    margin-bottom: 50px;
+    margin:10px auto;
     max-width: 1200px;
     height: auto;
+    padding: 5px 5px;
     font-size: 18px;
     color:white;
     background-color:  rgba(53, 43, 203);
