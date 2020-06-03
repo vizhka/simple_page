@@ -6,6 +6,7 @@ body{
     font-family:'Neucha', cursive;;
     font-size: 1rem;
     line-height: 1.6;
+    height: 100vh;
 }
 *,
 *::before,
@@ -131,6 +132,9 @@ header-nav{
 }
 .btn:hover{
     background-color: teal;
+}
+article{
+    margin: 10px 10px;
 }
 /*Photo*/
 .atom {
