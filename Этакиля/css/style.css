@@ -21,11 +21,11 @@ p{
 }
 .container {
     width: 100%;
-    
-    
+    margin: 15 auto;
+    max-width: 560px;
     background-size: cover;
     margin: 0 auto;
-    background-color: rgba(53, 43, 203);
+    
 }
 .container-header{
     width: 100%;
@@ -49,7 +49,7 @@ p{
     max-width: 1600px;
     width:100%;
     height: 100vh;
-    background-color: rgb(77, 76, 76);
+    background-color: rgb(255, 255, 255);
 }
 .page-author {
     width:100%;
@@ -123,15 +123,37 @@ header-nav{
     margin: 15px 20px;
 }
 .title {
-    margin-bottom: 35px;
-    font-size: 30px;
+    
+    
+    font-size: 50px;
     color: rgb(255, 255, 255);
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.2;
     text-align: center;
 }
+.sub-title{
+    
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    background-color:rgba(61, 61, 226, 0.575);
+    border-radius: 10px;
+} 
+}
+/*.shvedov{
+    font-size: 52px;
+    font-style: italic;
+}*/
 .title span{
     font-size: 35px;
+}
+.Shvedov-science{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
 }
 .text {
     margin:10px auto;
@@ -139,8 +161,8 @@ header-nav{
     height: auto;
     padding: 5px 5px;
     font-size: 18px;
-    color:white;
-    background-color:  rgba(53, 43, 203);
+    
+    background-color:  rgb(250, 250, 250);
     background-size: cover;
     border-radius: 5px;
 }
